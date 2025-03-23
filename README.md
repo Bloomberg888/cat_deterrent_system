@@ -1,4 +1,4 @@
-# Automated Cat Deterrent System for Kitchen Counters
+да# Automated Cat Deterrent System for Kitchen Counters
 
 ## Overview
 
@@ -54,11 +54,17 @@ Follow these steps to set up the project:
 3. **Clone Repository:** Clone this GitHub repository to your Raspberry Pi.
 4. **Install Dependencies:** Navigate to the repository directory on the Raspberry Pi and install the required Python packages using pip:
    ``bash
+
    sudo apt update
+
    sudo apt install python3-opencv python3-libcamera
+
    sudo apt install libcap-dev  # For picamera2 dependency
+
    python3 -m venv venv
+
    source venv/bin/activate
+
    pip install tflite-runtime opencv-python picamera2 requests
    ``
 5. **Download TensorFlow Lite Model:** Download a COCO-SSD MobileNet V1 model (`ssd_mobilenet_v1.tflite`) and place it in the same directory as the Python script or update the `model_path` variable in `cat_detector.py`. You can download it using `wget`:
