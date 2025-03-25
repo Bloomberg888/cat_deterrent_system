@@ -1,4 +1,4 @@
-да# Automated Cat Deterrent System for Kitchen Counters
+# Automated Cat Deterrent System for Kitchen Counters
 
 ## Overview
 
